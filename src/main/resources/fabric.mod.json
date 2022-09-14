@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "cosmic",
+  "version": "${version}",
+  "name": "Cosmic Worlds",
+  "description": "",
+  "authors": [
+    "ConstantDust"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/cosmic/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "cosmic.cosmic.client.CosmicClient"
+    ],
+    "main": [
+      "cosmic.cosmic.Cosmic"
+    ]
+  },
+  "mixins": [
+    "cosmic.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
