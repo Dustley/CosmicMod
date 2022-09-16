@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": {"model": "cosmic:block/debug_block"}
+  }
+}
